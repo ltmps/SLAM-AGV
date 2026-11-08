@@ -1,0 +1,19 @@
+# OS and editor
+Thumbs.db
+.DS_Store
+~$*
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# ROS 2 build output
+build/
+install/
+log/
+
+# Large recordings (keep raw bags out of git; publish datasets separately)
+*.mcap
+*.db3
